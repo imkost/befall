@@ -1,17 +1,21 @@
-## Usage
+## Befall | Tiny events library
+
+### API
 
 ```javascript
 import befall from 'befall';
 
-const onBodyClick = befall();
+// Create befall function
+const onInit = befall();
 
-addEventListener(document.body, 'click', (e) => onBodyClick.fire(e));
-
-onBodyClick(e => {
-  console.log('body was clicked');
+// Register event handler
+onInit((value1, value2) => {
+  // ...
 });
 
-onBodyClick(e => {
-  console.log('body was clicked');
-});
+// Fire all registered functions
+onInit.fire(value1, value2);
+
+// Unregister handler
+onInit.off(someHandlerFunction);
 ```

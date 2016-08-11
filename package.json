@@ -1,17 +1,16 @@
 {
   "name": "befall",
-  "version": "1.0.3",
-  "description": "Simple event emitter",
+  "version": "1.0.4",
+  "description": "Tiny events library",
   "main": "befall.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imkost/befall.git"
   },
   "keywords": [
-    "events"
+    "events, events emitter, events system"
   ],
   "author": "imkost",
   "license": "ISC",
