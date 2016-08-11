@@ -1,0 +1,22 @@
+{
+  "name": "befall",
+  "version": "1.0.3",
+  "description": "Simple event emitter",
+  "main": "befall.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imkost/befall.git"
+  },
+  "keywords": [
+    "events"
+  ],
+  "author": "imkost",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imkost/befall/issues"
+  },
+  "homepage": "https://github.com/imkost/befall#readme"
+}
