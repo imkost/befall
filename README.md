@@ -13,7 +13,7 @@ onInit((value1, value2) => {
   // ...
 });
 
-// Fire all registered functions
+// Execute all registered handlers
 onInit.fire(value1, value2);
 
 // Unregister handler

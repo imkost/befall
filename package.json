@@ -1,6 +1,6 @@
 {
   "name": "befall",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Tiny events library",
   "main": "befall.js",
   "scripts": {
