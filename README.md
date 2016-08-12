@@ -1,4 +1,4 @@
-## Befall | Tiny events library
+## Befall — tiny events library
 
 ### API
 
