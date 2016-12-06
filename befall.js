@@ -14,7 +14,7 @@ function befall(_isKinded) {
     }
   }
 
-  emitter.off = () => {
+  emitter.off = function() {
     var args = extractArgs(arguments);
     off(args.kind, args.params);
   };
