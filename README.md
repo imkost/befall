@@ -5,16 +5,16 @@
 ```javascript
 import befall from 'befall';
 
-// Create befall function
+// Create emitter
 const onInit = befall();
 
 // Register event handler
-onInit((value1, value2) => {
-  // ...
+onInit((greeting, name) => {
+  console.log(`${greeting}, ${name}`);
 });
 
 // Execute all registered handlers
-onInit.fire(value1, value2);
+onInit('Hello', 'dear user');
 
 // Unregister handler
 onInit.off(someHandlerFunction);
