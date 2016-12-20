@@ -10,7 +10,7 @@ function befall(_isKinded) {
     if (typeof params[0] === 'function') {
       register(kind, params[0]);
     } else {
-      fire(kind, params);
+      return fire(kind, params);
     }
   }
 
